@@ -56,13 +56,15 @@ img {
   height: auto;
 }
 </style>
-<div class="container-fluid p-5 my-5 border">
-  <h1 style="color:lightblue;" style="font-size:300%">Hello, GitHub!</h1>
+
+<!--This container  has a dark background color and a white text, and some extra padding and margins.-->
+<div class="mt-4 p-5 bg-dark text-white rounded">
+  <h1 style="text-align:center;" style="color:black;" style="font-size:300%">Hello, GitHub!</h1>
   <p class="text-white" style="font-size:160%;">This is my first web page using version control with Git and GitHub. I forked a repository to create this. A fork
     in Git is a personal copy of another user's repository that allows you to make changes without affecting the
     original project.4 </p>
-    
-  
+    </div>
+  <div class="container p-5 my-5 bg-dark text-white rounded">
   <h2 style="color:lightblue" style="font-size:300%">Resources</h2>
   <p class="text-white" style="font-size:160%;">Links to different websites to help style my website.</p>
   <ul>
@@ -72,20 +74,21 @@ img {
 <br>
 <li><a href="https://www.w3schools.com/bootstrap5/index.php">visit bootstrap 5 tutorial</a></li>
 </ul>
+</div>
 <p></p>
-  <h3 style="color:lightblue" style="font-size:300%">Chai</h3>
-  <p class="text-white" style="font-size:160%;">my lovely cat:</p>
-  <img src="images/mycat.JPG" max-width="50%" class="rounded" alt="A playful calico kitten is perched on a fan next to a windowsill." width="756" height="1008"> 
-
-  <img src="images/loaf.jpeg" max-width="50%" class="rounded" alt="" width="756" height="1008">
+<div class="container p-5 my-5 bg-gray text-white rounded">
+  <h3 style="color:black" style="font-size:300%">Chai</h3>
+  <p class="text-white" style="font-size:160%;">Julian's lovely cat:</p>
+ <ul> <img src="images/mycat.JPG" max-width="50%" class="rounded" alt="A playful calico kitten is perched on a fan next to a windowsill." width="756" height="1008"> </ul>
+<br>
+  <ul><img src="images/loaf.jpeg" max-width="50%" class="rounded" alt="A calico cat with striking yellow eyes stares intently at the camera from a slightly elevated position on a textured white bed, creating a calm atmosphere." width="756" height="1008"></ul>
 </div>
 
-<div class="container p-5 my-5 bg-dark text-white">
+<div class="container p-5 my-5 bg-dark text-white rounded">
 <h4 style="color:lightblue;" style="font-size:300%">My first bookstrap page</h4>
-<p style="font-size:160%;">This container  has a dark background color and a white text, and some extra padding and margins.</p>
+<p style="font-size:160%;" style="text-align:center;">This container  has a dark background color and a white text, and some extra padding and margins.</p>
  </div>
     
-
     <script>
         $("#nav-placeholder").load("navbar.html");
     </script>
